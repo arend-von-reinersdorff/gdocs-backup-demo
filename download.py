@@ -37,7 +37,7 @@ class Fetcher(webapp.RequestHandler):
           client.current_token = sessionToken
           self.fetchFeed(client)
       else:
-          nextUrl = 'http://avrei.appspot.com/wait'
+          nextUrl = 'http://gdocs-backup-demo.appspot.com/wait'
           urls = ('http://docs.google.com/feeds/','http://spreadsheets.google.com/feeds/')
           authSubUrl = client.GenerateAuthSubURL(nextUrl, urls, secure=False, session=True)
           self.response.out.write('<div id="request"><h4><a href="%s">Request a token</h4></a></div>' % authSubUrl)
