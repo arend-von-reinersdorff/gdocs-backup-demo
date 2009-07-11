@@ -1,0 +1,15 @@
+application: gdocs-backup-demo
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /
+  script: redirector.py
+
+- url: /wait
+  script: wait.py
+
+- url: /download
+  script: download.py
+ 

@@ -1,0 +1,5 @@
+Written 2009 by Arend v. Reinersdorff, arendvr.com
+Google Docs Backup Demo is Public Domain.
+
+The Google Data Python Library (folders atom and gdata) is provided by Google under the Apache License 2.0
+
