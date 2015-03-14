@@ -1,4 +1,3 @@
-# gdocs-backup-demo
 Automatically exported from code.google.com/p/gdocs-backup-demo
 
 A demo that downloads 10 Google Docs documents as a .zip file. Runs on Google Apps Engine.
